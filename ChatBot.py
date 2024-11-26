@@ -54,7 +54,6 @@ else:
 while True:
     try:
         review = int(input("\nJust one more question!\nIf you had to rate our conversation on a scale from 1-10,\nwhat would it be?\n"))
-        print("Interpreting response...")
         if review > 1 or review > 10:
             break
         else:
