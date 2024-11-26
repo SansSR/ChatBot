@@ -14,7 +14,7 @@ if age >= 14 and age <= 17:
 elif age < 13 or age > 65:
     print("Sorry, you are to young/old to use this chatbot.")
 elif age > 17 and age < 65:
-    print("Your {} years on this planet have\nled you to this very convseration!\n".format(age))
+    print("Your {} years on this planet have\nled you to this very conversation!\n".format(age))
 else:
     print("Invalid response. Proceeding to next question\n")
 import random
